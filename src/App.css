@@ -1,0 +1,41 @@
+body{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.container{
+  margin:40px;
+   padding:50px;
+  background-color: rgb(166, 166, 243);
+ max-width: 2000px;
+  border-radius: 10px;
+  border: solid rgb(131, 131, 232) 2px;
+}
+
+.sub-container input{
+   padding: 15px;
+   width: 100%;
+   border: none;
+   border-radius: 20px;
+   background-color: azure;
+   cursor:pointer;
+ 
+}
+
+.sub-container button{
+  padding: 10px;
+  font-size:15px;
+  border: none;
+  background-color: rgb(66, 66, 242);
+  color:white;
+  margin: 20px;
+  border-radius: 10px;
+
+}
+
+.sub-container button:hover{
+  background-color: rgb(1, 1, 127);
+  cursor: pointer;
+}
+
